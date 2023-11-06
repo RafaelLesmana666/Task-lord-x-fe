@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-start-rgb: 105,105,105;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgba(234, 230, 230, 0.856);
+}
+
+.nav-control{
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  border-radius: 0.75rem;
+  background-color: white;
+  color: rgb(156 163 175);
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-control:hover{
+  background-color: rgb(59 130 246);
+  color: white;
+}
+
+.nav-control-select{
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  border-radius: 0.75rem;
+  background-color: rgb(59 130 246);
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
+
+
+
